@@ -1,0 +1,10 @@
+//Proje dosyalarını oluşturun: Xcode'da yeni bir proje oluşturun ve "SwiftUI" seçeneğini seçin.
+//Haber kaynakları için bir model oluşturun: Haber kaynaklarını temsil eden bir "Source" adlı bir model oluşturun. Bu model, haber kaynağı adı, açıklaması, kategorisi ve endpoint URL'si gibi özellikleri içermelidir.
+//Haberler için bir model oluşturun: Haberleri temsil eden bir "Article" adlı bir model oluşturun. Bu model, haber başlığı, açıklaması, görseli, tarihi ve kaynağı gibi özellikleri içermelidir.
+//Haber kaynaklarını API'den çekin: NewsAPI'den haber kaynaklarını çekmek için bir API isteği yapın ve dili İngilizce olan kaynakları filtreleyin. Bu isteği yapmak için bir "NetworkManager" adlı bir sınıf oluşturun.
+//Haber kaynaklarını listeleyen bir görünüm oluşturun: Haber kaynaklarını listeleyen bir "SourcesView" adlı bir görünüm oluşturun. Bu görünüm, kaynakların adını, açıklamasını ve kategorisini göstermelidir. Ayrıca, kategori filtreleme seçenekleri de içermelidir.
+//Haberler için API isteği yapın: Seçilen haber kaynağına göre haberleri çekmek için bir API isteği yapın. Bu isteği yapmak için "NetworkManager" sınıfını kullanın.
+//Haberleri listeleyen bir görünüm oluşturun: Haberleri listeleyen bir "ArticlesView" adlı bir görünüm oluşturun. Bu görünüm, haber başlıklarını, açıklamalarını, görsellerini ve tarihlerini göstermelidir. Ayrıca, ilk üç haberin slider olarak gösterilmesi gerekmektedir.
+//Haberleri okuma listesine ekleyin: Haberleri okuma listesine eklemek için bir "ReadingList" adlı bir sınıf oluşturun. Bu sınıf, eklenen haberleri cihazda tutmalıdır. "ArticlesView" görünümüne bir "Okuma listeme ekle" butonu ekleyin ve butonun durumunu "Okuma listemden çıkar" olarak değiştirin.
+//Otomatik yenileme özelliği ekleyin: Her bir dakikada bir haberleri API'den yeniden çekmek ve sayfayı yenilemek için bir "AutoRefresh" adlı bir sınıf oluşturun. Bu sınıf, "ArticlesView" görünümünde kullanılmalıdır.
+//Unit testler yazın: Projenin unit test yazmaya uygun şekilde katmanlarının olması ve unit testlerin kapsamı için gerekli testleri yazın.
