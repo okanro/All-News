@@ -25,6 +25,7 @@
 		B236912B2A3CCE2F005216DC /* SaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236912A2A3CCE2E005216DC /* SaveButton.swift */; };
 		B236912D2A3CEEB4005216DC /* SourceCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236912C2A3CEEB4005216DC /* SourceCategories.swift */; };
 		B236912F2A3D22EA005216DC /* SecretKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236912E2A3D22EA005216DC /* SecretKeys.swift */; };
+		B23691312A3D30A3005216DC /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23691302A3D30A3005216DC /* NetworkMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		B236912A2A3CCE2E005216DC /* SaveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButton.swift; sourceTree = "<group>"; };
 		B236912C2A3CEEB4005216DC /* SourceCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCategories.swift; sourceTree = "<group>"; };
 		B236912E2A3D22EA005216DC /* SecretKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKeys.swift; sourceTree = "<group>"; };
+		B23691302A3D30A3005216DC /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				B23691162A3B5E84005216DC /* NetworkManager.swift */,
 				B23691242A3B65D1005216DC /* SavedArticlesManager.swift */,
+				B23691302A3D30A3005216DC /* NetworkMonitor.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				B23691292A3CAB9D005216DC /* ArticleCellViewModel.swift in Sources */,
 				B236911F2A3B60BE005216DC /* ArticlesView.swift in Sources */,
 				B236912D2A3CEEB4005216DC /* SourceCategories.swift in Sources */,
+				B23691312A3D30A3005216DC /* NetworkMonitor.swift in Sources */,
 				B23691032A3B5589005216DC /* ContentView.swift in Sources */,
 				B23691272A3B6FA0005216DC /* Responses.swift in Sources */,
 				B236911A2A3B6002005216DC /* SourcesView.swift in Sources */,
